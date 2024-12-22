@@ -75,8 +75,8 @@ cd chatbot-app
 3. Create a `.env` file and configure your environment variables. Example:
 
    ```plaintext
-  MONGODB_URI
-  JWT_SECRET
+     MONGODB_URI=your_mongodb_url
+     JWT_SECRET=your_jwt_secret
    ```
 
 4. Start the server:
